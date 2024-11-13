@@ -14,10 +14,10 @@ console.log(
 )
 
 // Add the recipient public key here.
-const recipient = new PublicKey('E22vZ3Mw1KPHA2eJf7EzQZEdzfYxvxHtC4QRuPEw6pA9')
+const recipient = new PublicKey('9UqoM1PqSD7RmfFBCuR1826AunKk8NpAUhSvg5PtGuJq')
 
 // Substitute in your token mint account
-const tokenMintAccount = new PublicKey('bq5pUC8zAE3c1CYh8VvnBtzymhvKuFX1XzpBmMYkQkC')
+const tokenMintAccount = new PublicKey('9fpHrQxJ75QwuGUhg6N7t3Fh713NA7rhVPxiDn72s1VV')
 
 // Our token has two decimal places
 const MINOR_UNITS_PER_MAJOR_UNITS = Math.pow(10, 2)
